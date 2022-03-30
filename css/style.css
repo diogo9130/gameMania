@@ -74,12 +74,23 @@ header {
 
 .banner{
     height: 800px;
-    background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
+
+.banner_1 {
+    background-image: url(../img/banner.jpg);
+}
+
+.banner_2 {
+    background-image: url(../img/banner_2.jpg);
+}
+
+.banner_3 {
+    background-image: url(../img/banner_3.jpg);
+}
 .posicionamento-banner{
     height: 100%;
     display: flex;

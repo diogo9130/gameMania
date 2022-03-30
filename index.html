@@ -8,6 +8,7 @@
     <meta name="description" content="São várias ofertas de produtos voltadas para o público gamer. Acesse agora!">
     <title>Home - GameMania</title>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body style="background-color: white;">
    <header>
@@ -28,8 +29,8 @@
                 </a>
             </nav>
             <form class="busca">
-                <input type="search" id="texto" placeholder="Digite sua busca aqui" required>
-                <img src="img/lupa.svg" class="btn">
+                <input type="search" id="texto" onclick="barraBusca()" placeholder="Digite sua busca aqui" required>
+                <a href="index.html"><img src="img/lupa.svg" class="btn"></a>
             </form>
             <a href="index.html" class="Saiba-mais">Iniciar sessão</a>
             <a href="#" id="barras" onclick="mostrarMenu()"><img class="icone-menu" src="img/menuHamburguer.svg" alt="Ícone do menu de barras"></a>
@@ -37,7 +38,7 @@
        
    </header>
    <main>
-        <section class="banner">
+        <section id ="carrossel" class="banner banner_1">
             <div class="container-grid posicionamento-banner">
                 <div class="conteudo-banner">
                     <h1>Alcançe o próximo nível</h1>
@@ -189,6 +190,7 @@
            </div>
        </section>
    </footer>
+   <script src="js/jquery.js"></script>
    <script src="js/index.js"></script>
 </body>
 </html>
