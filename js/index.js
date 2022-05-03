@@ -33,3 +33,13 @@ function mostrarMenu() {
         menu.style.display ='none';
     }
 }
+
+function mostrarMenu_2() {
+    let menu = document.getElementById("menu-lupa")
+
+    if (getComputedStyle(menu).display ==  'none') {
+        menu.style.display = 'flex';
+    } else {
+        menu.style.display ='none';
+    }
+}
